@@ -1,3 +1,51 @@
-<img src="https://tinypic.host/images/2025/05/15/plane-globe2.gif" alt="plane globe(2)" border="0">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Radio Widget</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
 
-<iframe src="https://s60.radiolize.com/public/apt.fm_vueabs/embed?theme=light" frameborder="0" allowtransparency="true" style="width: 100%; min-height: 160px; border: 0;"></iframe>
+    .radio-container {
+      width: 100%;
+      max-width: 600px; /* controls the iframe width */
+      margin-top: 20px;
+    }
+
+    iframe {
+      width: 100%;
+      min-height: 160px;
+      border: 0;
+    }
+
+    img {
+      max-width: 300px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://tinypic.host/images/2025/05/15/plane-globe2.gif" alt="plane globe" />
+  
+  <div class="radio-container">
+    <iframe 
+      src="https://s60.radiolize.com/public/apt.fm_vueabs/embed?theme=light" 
+      frameborder="0" 
+      allowtransparency="true">
+    </iframe>
+  </div>
+</body>
+</html>
